@@ -6,14 +6,16 @@ $bordergray:#CACACA;
 $headergray:#5C5E62;
 $headergreen:#97AD52;
 $headeramountbackground:#404246;
+$iconcolor:#F4F4F4;
+$optionnumbering:#A6A6A6;
 // max-width:254px;
 
 body{
   color: $wordgray;
 }
 
-.selected-header, .hover-header{
-  background-color: $headergreen;
+a {
+  text-decoration: none;
 }
 
 ol{
@@ -37,6 +39,16 @@ h3{
   background-color: $headergray;
 }
 
+h3 > i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.selected-header, .hover-header{
+  background-color: $headergreen;
+  color: $headeramountbackground;
+}
+
 .header-amount, .amount{
   display: inline-block;
   float: right;
@@ -50,6 +62,18 @@ h3{
 .header-amount{
   background-color: $headeramountbackground;
   border-color: $headeramountbackground;
+  color: white;
+}
+
+.amount{
+  margin-top: -1px;
+}
+
+.numbering{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 11px;
+  color: $optionnumbering;
 }
 
 li{

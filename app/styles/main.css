@@ -5809,8 +5809,8 @@ button.close {
 body {
   color: #797979; }
 
-.selected-header, .hover-header {
-  background-color: #97AD52; }
+a {
+  text-decoration: none; }
 
 ol {
   margin: 0px;
@@ -5830,6 +5830,14 @@ h3 {
   color: white;
   background-color: #5C5E62; }
 
+h3 > i {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.selected-header, .hover-header {
+  background-color: #97AD52;
+  color: #404246; }
+
 .header-amount, .amount {
   display: inline-block;
   float: right;
@@ -5841,7 +5849,17 @@ h3 {
 
 .header-amount {
   background-color: #404246;
-  border-color: #404246; }
+  border-color: #404246;
+  color: white; }
+
+.amount {
+  margin-top: -1px; }
+
+.numbering {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 11px;
+  color: #A6A6A6; }
 
 li {
   color: #797979;
