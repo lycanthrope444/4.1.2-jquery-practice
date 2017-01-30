@@ -5809,6 +5809,9 @@ button.close {
 body {
   color: #797979; }
 
+.selected-header, .hover-header {
+  background-color: #97AD52; }
+
 h3 {
   color: white;
   background-color: #5C5E62; }
@@ -5825,6 +5828,9 @@ h3, li {
   border: 1px solid #CACACA;
   height: 32px;
   max-width: 254px; }
+
+.selected-header {
+  background-color: #97AD52; }
 
 li {
   color: #797979;

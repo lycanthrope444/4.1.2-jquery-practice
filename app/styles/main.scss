@@ -4,10 +4,15 @@ $optiongray:#E5E5E5;
 $wordgray:#797979;
 $bordergray:#CACACA;
 $headergray:#5C5E62;
+$headergreen:#97AD52;
 // max-width:254px;
 
 body{
   color: $wordgray;
+}
+
+.selected-header, .hover-header{
+  background-color: $headergreen;
 }
 
 h3{
@@ -28,6 +33,10 @@ h3, li{
   border: 1px solid #CACACA;
   height: 32px;
   max-width: 254px;
+}
+
+.selected-header{
+  background-color: $headergreen;
 }
 
 li{
