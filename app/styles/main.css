@@ -5812,10 +5812,6 @@ body {
 .selected-header, .hover-header {
   background-color: #97AD52; }
 
-h3 {
-  color: white;
-  background-color: #5C5E62; }
-
 ol {
   margin: 0px;
   padding-left: 0px;
@@ -5824,13 +5820,28 @@ ol {
 h3, li {
   font-size: 12px;
   padding: 0px;
+  padding-top: 8px;
   margin: 0px;
   border: 1px solid #CACACA;
   height: 32px;
   max-width: 254px; }
 
-.selected-header {
-  background-color: #97AD52; }
+h3 {
+  color: white;
+  background-color: #5C5E62; }
+
+.header-amount, .amount {
+  display: inline-block;
+  float: right;
+  border: 1px solid #CACACA;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin-right: 10px; }
+
+.header-amount {
+  background-color: #404246;
+  border-color: #404246; }
 
 li {
   color: #797979;
